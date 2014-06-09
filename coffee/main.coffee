@@ -151,7 +151,7 @@ init = ->
 	userid = getParam "user_id"
 	if photoid and userid
 		_fromPC = true
-		manilsit.push {id:"frompc",src:"http://img3.douban.com/view/photo/photo/public/p#{photoid}.jpg"}
+		manilsit.push {id:"frompc",src:"http://img3.douban.com/view/photo/photo/public/#{photoid}.jpg"}
 
 
 	# 合并数组

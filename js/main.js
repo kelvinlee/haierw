@@ -539,7 +539,7 @@ init = function() {
     _fromPC = true;
     manilsit.push({
       id: "frompc",
-      src: "http://img3.douban.com/view/photo/photo/public/" + photoid + ".jpg"
+      src: "http://img3.douban.com/view/photo/photo/public/p" + photoid + ".jpg"
     });
   }
   manilsit = manilsit.concat(rsqarr);
